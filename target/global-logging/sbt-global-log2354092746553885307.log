@@ -1,0 +1,107 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\User\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\User\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.3 (Oracle Corporation Java 1.8.0_401)
+[debug] Load.defaultLoad until apply took 44.8248ms
+[debug]           Load.loadUnit: plugins took 42.5737ms
+[debug]           Load.loadUnit: defsScala took 0.159201ms
+[debug] [Loading] Scanning directory C:\Users\User\Documents\Poke\finalprojectv2-TanZeHao\project
+[debug]             Load.loadUnit: mkEval took 4.9868ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\User\Documents\Poke\finalprojectv2-TanZeHao\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 8.3755 ms
+[info] loading settings for project finalprojectv2-tanzehao-build from idea.sbt ...
+[debug]               Load.resolveProject(finalprojectv2-tanzehao-build) took 26.8537ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id finalprojectv2-tanzehao-build, base: C:\Users\User\Documents\Poke\finalprojectv2-TanZeHao\project, plugins: List(<none>))) took 39.7391ms
+[debug] [Loading] Done in C:\Users\User\Documents\Poke\finalprojectv2-TanZeHao\project, returning: (finalprojectv2-tanzehao-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 1659.179601ms
+[debug]           Load.loadUnit: cleanEvalClasses took 3.3989ms
+[debug]         Load.loadUnit(file:/C:/Users/User/Documents/Poke/finalprojectv2-TanZeHao/project/, ...) took 1708.3193ms
+[debug]       Load.apply: load took 1764.5833ms
+[debug]       Load.apply: resolveProjects took 2.961499ms
+[debug]       Load.apply: finalTransforms took 31.3097ms
+[debug]       Load.apply: config.delegates took 3.5917ms
+[debug]       Load.apply: Def.make(settings)... took 202.9936ms
+[debug]       Load.apply: structureIndex took 44.259301ms
+[debug]       Load.apply: mkStreams took 1.0089ms
+[info] loading project definition from C:\Users\User\Documents\Poke\finalprojectv2-TanZeHao\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3095.356ms
+[debug]     Load.loadUnit: defsScala took 0.001701ms
+[debug] [Loading] Scanning directory C:\Users\User\Documents\Poke\finalprojectv2-TanZeHao
+[debug]       Load.loadUnit: mkEval took 0.1544ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.149201 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 14.3281ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\User\Documents\Poke\finalprojectv2-TanZeHao, plugins: List(<none>))) took 16.3579ms
+[debug] [Loading] Done in C:\Users\User\Documents\Poke\finalprojectv2-TanZeHao, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 756.227ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.8049ms
+[debug]   Load.loadUnit(file:/C:/Users/User/Documents/Poke/finalprojectv2-TanZeHao/, ...) took 3856.105401ms
+[debug] Load.apply: load took 3866.221101ms
+[debug] Load.apply: resolveProjects took 0.0735ms
+[debug] Load.apply: finalTransforms took 14.6556ms
+[debug] Load.apply: config.delegates took 0.19ms
+[debug] Load.apply: Def.make(settings)... took 66.8749ms
+[debug] Load.apply: structureIndex took 12.6314ms
+[debug] Load.apply: mkStreams took 0.0018ms
+[info] set current project to scalaFXIntro (in build file:/C:/Users/User/Documents/Poke/finalprojectv2-TanZeHao/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 57095 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 57095, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to scalaFXIntro (in build file:/C:/Users/User/Documents/Poke/finalprojectv2-TanZeHao/)
+[debug] > Exec(idea-shell, None, None)
